@@ -129,17 +129,12 @@ body {
 	.sh_4{
 		background-color:#F27405;
 	}
-	
 	.logo{
-		width:66.66666666666666666666666%;
-		height:100px;
-		float:left;	
-		background-color:#AE2F2F;
-		background:url(img/logo.png) no-repeat center;
-	}
-	.logo_link{
-			width:100%;
-		height:100%;
+		height: 100px;
+		width: 646px;
+		float: left;	
+		background-image: url(img/logo.png);
+		text-indent: -9999px;
 	}
 	.menu_top{
 		height:40px;
