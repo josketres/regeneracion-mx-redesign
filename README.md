@@ -20,5 +20,5 @@ Metodología:
 
 Listado de cambios:
 -------
-# Uso de elementos de html5 y optimizacion del estilo del codigo para webcrawlers y lectores de pantallas. -
+1. Uso de elementos de html5 y optimizacion del estilo del codigo para webcrawlers y lectores de pantallas. -
 http://rawgithub.com/josketres/regeneracion-mx-redesign/a6ce5a87f9489af6d6c68ac2edb0329c280ef2bd/www.regeneracion.mx/index.html
