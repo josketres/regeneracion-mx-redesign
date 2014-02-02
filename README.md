@@ -20,6 +20,6 @@ Metodología:
 
 Listado de cambios:
 -------
-1. Uso de algunos elementos de html5. 
+1. Uso de elementos y attributos de html5 - [cambios](https://github.com/josketres/regeneracion-mx-redesign/commit/8d7d33c84a790edb2c2a5015759ec0a58fc69a24) - [página](http://rawgithub.com/josketres/regeneracion-mx-redesign/8d7d33c84a790edb2c2a5015759ec0a58fc69a24/www.regeneracion.mx/index.html) 
 2. Optimizacion del estilo del codigo para webcrawlers y lectores de pantallas - [cambios](https://github.com/josketres/regeneracion-mx-redesign/commit/a6ce5a87f9489af6d6c68ac2edb0329c280ef2bd) - [página](http://rawgithub.com/josketres/regeneracion-mx-redesign/a6ce5a87f9489af6d6c68ac2edb0329c280ef2bd/www.regeneracion.mx/index.html)
 
