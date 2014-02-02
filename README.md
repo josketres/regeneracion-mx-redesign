@@ -10,8 +10,8 @@ Links:
 Metodología:
 * Hacer una copia de la página principal del sitio utilizando wget
 
-   wget -mk www.regeneracion.mx
-   
+
+    wget -mk www.regeneracion.mx
    
 * Hacer pequeños cambios tratando de no alterar mucho la estructura del sitio (para que en el caso de que agraden al webmaster del periódico puedan ser integrados fácilmente).
 * Cada cambio se encapsula en un commit para que sirva de documentación de cómo se realizo el cambio.
