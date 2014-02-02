@@ -5,8 +5,8 @@ Rediseño de el sitio web del periódico con el objetivo de practicar html5/css3
 
 Links:
 -------
-* El sitio original: http://regeneracion.mx/
-* El rediseño (en progreso): http://rawgithub.com/josketres/regeneracion-mx-redesign/master/www.regeneracion.mx/index.html
+* [El sitio original](http://regeneracion.mx/) 
+* [El rediseño (la versión más reciente)](http://rawgithub.com/josketres/regeneracion-mx-redesign/HEAD/www.regeneracion.mx/index.html)
 
 Metodología:
 -------
