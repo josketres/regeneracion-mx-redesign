@@ -81,10 +81,11 @@ body {
 		padding: 10px 0;
 	}
 	footer {
-
-		background-color: #2e2729;
-		color:#FFF;
+		width: 100%;
+		height: 150px;
+		background-color: #0c0d0d;
 		position: relative;
+		clear: both;
 	}
 	.fltrt {  
 		float: right;
@@ -153,6 +154,25 @@ body {
 	.menu-item a:hover {
 		background-color:#e5e5e5;
 	}
+	footer nav {
+		width: 100%;
+		display: inline-block;
+		margin-top: 12px;
+	}
+	footer nav .menu-item a {
+		color: #dae5e5;
+	}
+	footer nav .menu-item a:hover {
+		color: #fff;
+		background-color: transparent;
+	}
+	footer nav ul {
+		width: 476px;
+		margin: 0 auto;
+	}
+	footer address {
+		margin-top: 20px;
+	}
 	header {
 		position: relative;
 	}
@@ -161,9 +181,6 @@ body {
 		top: 10px;
 		right: 0;
 	}
-	header .search .field {
-		width: 70%;
-	}	
 	.search {
 		float:left;
 		text-align:right;
@@ -179,20 +196,20 @@ body {
 	#nav-below{
 		float:left;
 		width: 100%;	
+	}
+	footer {
+		text-align: center;
 	}	
-	.a_down{
-		margin-left:auto;
-		width:33%;
-		float:left;	
+	.a_down {
+		margin-top: 12px;
 	}
-	.a_down>.textwidget{
-		text-align:center;
+	.a_down .textwidget {
+		width: 304px;
+		margin: 0 auto;
 	}
-
-	.a_down>.textwidget>p>a{
+	.a_down a {
 		padding-left:3px;
 		padding-right:3px;
-
 	}
 	.search>div.search{
 		padding-top:7px;
@@ -582,10 +599,6 @@ width: 568px;
 
 #header a:hover {
 	text-decoration: none;
-}
-address{
-float: right;
-width: 100%;
 }
 .meta{
 padding-top:20px;
@@ -1042,4 +1055,8 @@ color:#ccc!important;
 }
 .space{
 height: 20px;
+}
+.googleads-container {
+	display: inline-block;
+	margin: 20px 0;	
 }
