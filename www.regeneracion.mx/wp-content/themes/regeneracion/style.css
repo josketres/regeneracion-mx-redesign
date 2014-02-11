@@ -64,7 +64,7 @@ body {
 
 	}
 	.container {
-		width: 970px;
+		width: 960px;
 		background-color: #FFFFFF;
 		margin: 0 auto; 
 	}
@@ -232,20 +232,21 @@ body {
 		float:left;
 	}
 	.slide_news{
-		width:50%;	
+		width: 460px;
+		margin-left: 10px;		
 		float:left;
 		height:400px
-		
 	}
 	.ns_1{
 		background-color:#fff;
 		overflow:hidden;
 	}
-	.ns_2{
+	#regeneracion .ns_2{
 		background-color:#fff;
 		overflow:hidden;
+  		margin-left: 20px;
 	}
-	.ns_1 ul.super-post,.ns_2 ul.super-post, .ns_2 ul.super-post,.ns_2 ul.super-post {
+	.ns_1 ul.super-post {
 		
 		padding-left:5px;
 	}
@@ -256,23 +257,57 @@ body {
 		vertical-align: middle;
 		border-bottom:thin solid rgba(7, 7, 7, 0.15);
 	}	
-	.ns_1 > .super-post > li >.sp-thumbnail-wrapper,.ns_2 > .super-post > li >.sp-thumbnail-wrapper{
+	#.ns_1 > .super-post > li >.sp-thumbnail-wrapper,
+	.ns_2 > .super-post > li >.sp-thumbnail-wrapper {
 		margin:0;
 		padding: 5px;	
+	}
+	#regeneracion .ns_2 .sp-thumbnail-wrapper {
+		width: 140px;
+		height: 78px;
+		overflow: hidden;
+		margin: 0;
+	}
+	#regeneracion .ns_2 img {
+		width: 140px;
+	}
+	#regeneracion .ns_2 .sp-post-info {
+		float: left;
+		width: 300px;
+		margin: 0px 0 0 20px;
+		height: 78px;
+		border-bottom: none;
+	}
+	#regeneracion .ns_2 .sp-post-info a {
+		height: auto;
+		width: auto;
+		color: #171a1a;
+	}
+	#regeneracion .ns_2 li:first-child {
+		margin-top: 0px;
+	}
+	#regeneracion .ns_2 li:last-child {
+		border-bottom: none;
+	}
+	#regeneracion .ns_2 li {
+		margin-top: 9px;
+		height: 70px;
+		border-bottom: thin solid rgba(7, 7, 7, 0.15);
 	}
 	.hl_recent_tweets{
 		font-size: 0.7em;
 	}
 
-	.ns_1 > .super-post > li >.sp-post-info > .sp-title,.ns_2 > .super-post > li >.sp-post-info > .sp-title{
+	.ns_1 > .super-post > li >.sp-post-info > .sp-title,
+	.ns_2 > .super-post > li >.sp-post-info > .sp-title {
 		width:100%;
 		margin:0 auto;
-		text-decoration:none!important;
+		text-decoration: none !important;
 		font-weight:bold;
-		font-size:1.09em;
+		font-size: 14px;
+		line-height: 1.5em;
 		vertical-align: middle;
 		height:100%;
-		
 	}
 	.rounded{
 		-webkit-border-radius: 7px;
@@ -1044,8 +1079,8 @@ color: #FFFFFF;
 /* Pagination */
 
 
-.sp-title{
-color:#171a1a!important;
+#regeneracion .sp-title{
+color:#171a1a;
 }
 .sp-title > a:link, .sp-title > a:visited {
   color:#171a1a!important;
