@@ -237,11 +237,11 @@ body {
 	#regeneracion .ns_1{
 		background-color:#fff;
 		overflow:hidden;
-		margin-left: 20px;
 	}
 	#regeneracion .ns_2{
 		background-color:#fff;
 		overflow:hidden;
+		margin-left: 20px;
 	}
 	.ns_1 ul.super-post {
 		
@@ -1094,7 +1094,6 @@ height: 20px;
 }
 
 .above_menu {
-	margin-top: -30px;
 	width: 100%;
 	float: left;
 	height: 30px;
