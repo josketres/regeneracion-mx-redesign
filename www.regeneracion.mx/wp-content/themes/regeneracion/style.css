@@ -127,7 +127,7 @@ body {
 		background-color: #fff;
 		border-top: 3px solid #780b0b;
 		border-bottom: 3px solid #780b0b;
-		margin: 0 0 10px 0;
+		margin: 0 0 20px 0;
 	}
 	.menu_top ul {
 		width: 799px;
@@ -147,10 +147,12 @@ body {
 		font-size: 14px;
 		height: 30px;
 	}
+	/*
 	.menu-item-7188 a{
 		color:#b82121;
 		font-size: 16px;
 	}
+	*/
 	.menu-item a:hover {
 		background-color:#e5e5e5;
 	}
@@ -232,14 +234,14 @@ body {
 		float:left;
 		height:400px
 	}
-	.ns_1{
+	#regeneracion .ns_1{
 		background-color:#fff;
 		overflow:hidden;
+		margin-left: 20px;
 	}
 	#regeneracion .ns_2{
 		background-color:#fff;
 		overflow:hidden;
-  		margin-left: 20px;
 	}
 	.ns_1 ul.super-post {
 		
